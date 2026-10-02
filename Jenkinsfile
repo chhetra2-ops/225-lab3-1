@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/Chhetra2'
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/chhetra2-ops/225-lab3-1.git'
-        KUBECONFIG = credentials('roseaw-225')                                             // <------change this
+        KUBECONFIG = credentials('chhetra2-225')
     }
 
     stages {
