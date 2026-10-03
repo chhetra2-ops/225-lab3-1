@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'                                 // <------DON'T change this
-        DOCKER_IMAGE = 'cithit/Chhetra2'
+        DOCKER_IMAGE = 'cithit/chhetra2'
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/chhetra2-ops/225-lab3-1.git'
         KUBECONFIG = credentials('chhetra2-225')
